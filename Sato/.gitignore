@@ -1,5 +1,5 @@
 *.pyc
-#results/
+results/sherlock_log
 sherlock/pretrained/
 tmp/
 topic_model/LDA_cache/
