@@ -1,9 +1,6 @@
 ELA/data/extract/out/valid_headers/turl_type_turl_header_valid.csv filter=lfs diff=lfs merge=lfs -text
 ELA/data/extract/out/valid_headers/turl_type_turl_valid.json filter=lfs diff=lfs merge=lfs -text
-<<<<<<< HEAD
 #ELA/emb_clus/word_embedding/out/** filter=lfs diff=lfs merge=lfs -text
 #ELA/emb_clus/word_embedding/models/google_use_3/** filter=lfs diff=lfs merge=lfs -text
 #ELA/emb_clus/word_embedding/models/google_use_3/variables/** filter=lfs diff=lfs merge=lfs -text
-=======
->>>>>>> 0dbbb9c5a74f5dc050b00c84d6973a221cda7b95
 ELA/emb_clus/word_embedding/out/word_embeddings_all_df.p filter=lfs diff=lfs merge=lfs -text
