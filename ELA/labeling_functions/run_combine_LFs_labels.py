@@ -4,7 +4,7 @@ load_dotenv(override=True)
 import numpy as np
 
 corpus = "public_bi"
-gen_train_data = False
+gen_train_data = True
 snorkel_label_model = "maj"
 absolute = True
 
