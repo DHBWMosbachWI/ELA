@@ -4,10 +4,16 @@ This Repo contains the code and data for our data programming framework ELA.
 
 ## Data Preparation
 ### Public BI
-Download the Public BI benchmark data set:
+Download the Public BI benchmark data set here:
 https://github.com/cwida/public_bi_benchmark/tree/dev/master
 
 ### Turl
+Download the used Turl data set here:
+https://www.dropbox.com/sh/f9x61wq7t2db9ah/AAASpys7pZU-lUDMQfFfyhTha?dl=0
+
+These contains the original turl tables separately stored in CSV-Files. There are two version. One version (`tables.zip`) containing all tables with the semantic types as column header. Another version (`tables_with_headers.zip`) containing all tables with the original column headers.
+
+## Set-up Environment Variables
 
 ## Valid Semantic Types
 All used semantic types are defined in `data/extract/out/valid_types/types.json`. Here the list `type78` defines all types used for the Public BI benchmark and the list `type_turl` contains all 105 types used for the turl data corpus.
