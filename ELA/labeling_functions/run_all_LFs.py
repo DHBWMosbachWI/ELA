@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 load_dotenv(override=True)
 
 corpus = "public_bi"
-gen_train_data = False
+gen_train_data = True
 absolute = True
 
 
