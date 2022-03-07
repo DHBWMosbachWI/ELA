@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 load_dotenv(override=True)
 import numpy as np
 
-gen_train_data = False
+gen_train_data = True
 absolute = True
 
 if os.environ["CORPUS"] == "public_bi":
