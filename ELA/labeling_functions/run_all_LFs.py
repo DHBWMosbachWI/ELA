@@ -31,10 +31,10 @@ if __name__ == "__main__":
             "cricket.cricket_player", "military.military_unit"
         ]
     elif corpus == "public_bi":
-        #check_elements_types = ["gender", "language"]
-        check_elements_types = []
-        #regex_elements_in_col = ["description", "name"]
-        regex_elements_in_col = []
+        check_elements_types = ["gender", "language"]
+        #check_elements_types = []
+        regex_elements_in_col = ["description", "name"]
+        #regex_elements_in_col = []
         
     if absolute:
         for labeled_data_size in [1]:
