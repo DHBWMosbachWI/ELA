@@ -1,7 +1,7 @@
 .venv/
 .vscode/
 .ipynb_checkpoints
-data/extract/out
+#data/extract/out
 emb_clus/word_embedding/out
 emb_clus/word_embedding/models
 emb_clus/clustering/out
