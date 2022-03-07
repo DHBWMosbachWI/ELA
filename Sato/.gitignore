@@ -6,5 +6,5 @@ topic_model/LDA_cache/
 model/pre_trained_CRF
 model/pre_trained_sherlock
 extract/out/train_test_split/
-extract/out/features/
+extract/out/features/type_turl
 sven/out/
