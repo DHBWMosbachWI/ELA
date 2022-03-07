@@ -1,0 +1,5 @@
+table,column,dataset_id,predicted_semantic_type
+Euro2016_1,column_2,Euro2016_1+column_2,language
+HashTags_1,column_32,HashTags_1+column_32,language
+Hatred_1,column_15,Hatred_1+column_15,language
+YaleLanguages_3,column_26,YaleLanguages_3+column_26,language

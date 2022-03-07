@@ -1,0 +1,4 @@
+table,column,dataset_id,predicted_semantic_type
+HashTags_1,column_4,HashTags_1+column_4,language
+Hatred_1,column_15,Hatred_1+column_15,language
+YaleLanguages_3,column_26,YaleLanguages_3+column_26,language
