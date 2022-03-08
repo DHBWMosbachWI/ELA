@@ -14,6 +14,17 @@ https://www.dropbox.com/sh/f9x61wq7t2db9ah/AAASpys7pZU-lUDMQfFfyhTha?dl=0
 These contains the original turl tables separately stored in CSV-Files. There are two version. One version (`tables.zip`) containing all tables with the semantic types as column header. Another version (`tables_with_headers.zip`) containing all tables with the original column headers.
 
 ## Set-up Environment Variables
+Most python scripts use environment variables, which must be defined in the `.env` File. The following variables must be set:
+```
+WORKING_DIT => The path to the directory of ELA/ELA
+SATO_DIR => The path to the directory of ELA/Sato
+TYPENAME => "type78" for Public BI / "type_turl" for Turl
+CORPUS => "public_bi" / "turl"
+PUBLIC_BI_BENCHMARK => path to the raw data of the Public BI Benchmark. 
+TURL => path to the raw data of the Turl data corpus provided by the link above.
+TURL_DIR => unfortunately this is a redundancy to upper variables and must be eliminated in the future. So you have to define the same path as on "TURL" environment variable
+PYTHON => your python commmand to run a script (e.g. python, python3, py)
+```
 
 ## Valid Semantic Types
 All used semantic types are defined in `data/extract/out/valid_types/types.json`. Here the list `type78` defines all types used for the Public BI benchmark and the list `type_turl` contains all 105 types used for the turl data corpus.
