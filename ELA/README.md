@@ -22,7 +22,6 @@ TYPENAME => "type78" for Public BI / "type_turl" for Turl
 CORPUS => "public_bi" / "turl"
 PUBLIC_BI_BENCHMARK => path to the raw data of the Public BI Benchmark. 
 TURL => path to the raw data of the Turl data corpus provided by the link above.
-TURL_DIR => unfortunately this is a redundancy to upper variables and must be eliminated in the future. So you have to define the same path as on "TURL" environment variable
 PYTHON => your python commmand to run a script (e.g. python, python3, py)
 ```
 
