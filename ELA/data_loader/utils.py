@@ -64,7 +64,7 @@ def load_public_bi_table(domain, tablename, frac, with_header=True):
 
 
 def get_all_turl_tables(only_table_names: bool = False):
-    list_of_tables = glob.glob(os.path.join(os.environ["TURL"], "*.csv"))
+    list_of_tables = glob.glob(os.path.join(os.environ["TURL"], "tables", "*.csv"))
     if only_table_names:
         list_of_tables = list(
             map(lambda x: os.path.basename(x)[:-4], list_of_tables))
@@ -90,5 +90,5 @@ def load_turl_tablecolumn(dataset_id:str, sample=5) -> list:
     
     table_id = dataset_id.split("+")[0]
     column_id = dataset_id.split("+")[1].split("_")[1]
-    df_column = pd.read_csv(join(os.environ["TURL_DIR"],table_id), usecols=[int(column_id)]).sample(n=sample,replace=True, random_state=42)
+    df_column = pd.read_csv(join(os.environ["TURL"], "tables",table_id), usecols=[int(column_id)]).sample(n=sample,replace=True, random_state=42)
     return df_column.iloc[:,0].values.tolist()

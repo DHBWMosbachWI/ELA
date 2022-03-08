@@ -38,7 +38,7 @@ label_enc.fit(valid_types)
 def load_tablecolumn(dataset_id: str):
     table_id = dataset_id.split("+")[0]
     column_id = dataset_id.split("+")[1].split("_")[1]
-    df_column = pd.read_csv(join(os.environ["TURL_DIR"], "tables", table_id),
+    df_column = pd.read_csv(join(os.environ["TURL"], "tables", table_id),
                             usecols=[int(column_id)])
     return df_column.iloc[:, 0].values.tolist()
 
